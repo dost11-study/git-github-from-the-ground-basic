@@ -100,3 +100,6 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 	3. untracked 상태에 있는 파일
 
 ![[Pasted image 20251006174505.png]]
+
+## 저장소 비교
+![[Pasted image 20251006202908.png]]
