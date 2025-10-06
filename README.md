@@ -99,7 +99,8 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 	2. tracked 상태와 staging area 간의 차이점
 	3. untracked 상태에 있는 파일
 
-![image1](./images/Pasted image 20251006174505.png)
+
+![image1](./images/Pasted%20image%2020251006174505.png)
 
 ## 저장소 비교
 - working directory의 tracked 상태와 repository의 commit 간의 상태를 비교하고 싶을 때
