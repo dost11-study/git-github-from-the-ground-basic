@@ -136,7 +136,7 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 
 부모 커밋은 커밋이 화살표로 가리키는 커밋이다.
 - 즉, 1~3번 커밋 중 가장 최근에 만들어진 3번 커밋이 HEAD일때 3번 커밋의 부모 커밋은 2번 커밋이다.
-![image](Pasted%20image%2020251006210846.png)
+![image](./images/Pasted%20image%2020251006210846.png)
 
 ## 브랜치
 
