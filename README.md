@@ -116,3 +116,12 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 더 쉬운 커밋ID 실행 방법은 `git diff HEAD^ HEAD` 를 써도 최신과 그 이전 커밋 기준으로 동작한다.
 ![image](./images/Pasted%20image%2020251006203405.png)
 
+## HEAD
+
+1. `HEAD`
+	- working directory와 staging area가 어떤 커밋의 상태인지 보여주는 표기이다
+2. `git checkout [커밋ID]` 
+	- `HEAD` 가 명령어에서 지정한 커밋을 가리키게 만든다.
+	- 이때, working directory와 staging area는 HEAD가 새롭게 가리키는 커밋의 상태로 바뀐다
+![[Pasted image 20251006210038.png]]
+
