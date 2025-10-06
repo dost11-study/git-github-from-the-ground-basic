@@ -81,13 +81,22 @@ Git은 설치 시 기본 언어로 Mac의 시스템 언어를 따릅니다.
 ## 시작하기
 
 1. .git 폴더에 staging area와 repository 생성하기 (깃이 프로젝트 관리하게 만들기)
-- `git init`
-
-1.  working directory의 파일을 staging area에 복사하기 (tracked, 즉 버전 관리 대상으로 추가하기)
-- `git add`
-
+	- `git init`
+	- 여기에 있는 파일들은 untracked 상태 즉 버전 관리 대상이 아님
+2.  working directory의 파일을 staging area에 복사하거나 덮어쓴다 (tracked 상태, 즉 버전 관리 대상으로 추가하기)
+	- `git add`
 3. staging area에 모아둔 파일들을 하나의 버전(commit)으로 만든다
-- `git commit`
+	- `git commit`
 
 
+## 저장소 상태 보기
 
+working directory의 파일 상태와 staging area의 파일 상태가 서로 다를 때 커밋할 경우 staging area 기준으로 커밋이 생성됨. 그렇기 때문에 저장소의 상태를 보여주는 명령어를 통해 주기적으로 확인해야함
+
+`git status` 의 기능
+
+	1. staging area와 최신 커밋 간의 차이점
+	2. tracked 상태와 staging area 간의 차이점
+	3. untracked 상태에 있는 파일
+
+![[Pasted image 20251006174505.png]]
