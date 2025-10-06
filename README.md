@@ -99,7 +99,19 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 	2. tracked 상태와 staging area 간의 차이점
 	3. untracked 상태에 있는 파일
 
-![[Pasted image 20251006174505.png]]
+![[./images/Pasted image 20251006174505.png]]
 
 ## 저장소 비교
-![[Pasted image 20251006202908.png]]
+- working directory의 tracked 상태와 repository의 commit 간의 상태를 비교하고 싶을 때
+	- `git diff [커밋ID]`
+- working directory의 tracked 상태와 staging area를 비교하고 싶을 때
+	- `git diff`
+- staging area와 repository의 commit과 비교하고 싶을 때
+	- `git diff --cached`
+
+![[./images/Pasted image 20251006202908.png]]
+
+커밋 간의 차이점을 알고 싶을 땐 `git diff [커밋ID 1] [커밋ID 2]` 를 사용한다.  
+더 쉬운 커밋ID 실행 방법은 `git diff HEAD^ HEAD` 를 써도 최신과 그 이전 커밋 기준으로 동작한다.
+![[./images/Pasted image 20251006203405.png]]
+
