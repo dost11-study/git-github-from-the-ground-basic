@@ -155,3 +155,10 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 - HEAD가 커밋을 가리키면, 분리된 HEAD 상태이다
 	- Detached HEAD가 이 경우인데 어떠한 브랜치도 가리키지 않고 있어서, 새로운 커밋은 생기지만 다른 브랜치로 이동하면 그 커밋은 고아 상태가 되어 사라질 수 있음
 - 브랜치가 변경되면 working directory(tracked)와 staging area의 데이터가 해당 브랜치의 HEAD가 가리키는 커밋 상태로 변경된다
+
+HEAD의 실제 모양은 포인터가 포인터를 가리키는 구조이다
+![image](./images/Pasted%20image%2020251006232707.png)
+
+## 머지 (3-way merge)
+
+
