@@ -125,3 +125,18 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
    - 이때, working directory와 staging area는 HEAD가 새롭게 가리키는 커밋의 상태로 바뀐다
 ![image](./images/Pasted%20image%2020251006210038.png)
 
+### HEAD의 상대적 위치 (부모 커밋)
+
+`HEAD ^` 는 `HEAD`가 가리키고 있는 커밋(상대적인 위치)에서 과거로 한 칸 떨어져 있는 커밋을 나타낸다.
+(이때 ^는 캐럿이라고 부름)
+
+캐럿 대신에 ~를 사용할 수도 있다. 
+- 예) HEAD~3은 HEAD로부터 3번 과거의 커밋이다. = HEAD^^^
+
+
+부모 커밋은 커밋이 화살표로 가리키는 커밋이다.
+- 즉, 1~3번 커밋 중 가장 최근에 만들어진 3번 커밋이 HEAD일때 3번 커밋의 부모 커밋은 2번 커밋이다.
+![image](Pasted%20image%2020251006210846.png)
+
+## 브랜치
+
