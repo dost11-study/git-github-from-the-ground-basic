@@ -78,3 +78,16 @@ Git은 설치 시 기본 언어로 Mac의 시스템 언어를 따릅니다.
 [https://velog.io/@rxdryd/git-출력-언어변경](https://velog.io/@rxdryd/git-%EC%B6%9C%EB%A0%A5-%EC%96%B8%EC%96%B4%EB%B3%80%EA%B2%BD)  
 [출처 - [](https://velog.io/@rxdryd/posts)**rxdryd.log**]
 
+## 시작하기
+
+1. .git 폴더에 staging area와 repository 생성하기 (깃이 프로젝트 관리하게 만들기)
+- `git init`
+
+1.  working directory의 파일을 staging area에 복사하기 (tracked, 즉 버전 관리 대상으로 추가하기)
+- `git add`
+
+3. staging area에 모아둔 파일들을 하나의 버전(commit)으로 만든다
+- `git commit`
+
+
+
