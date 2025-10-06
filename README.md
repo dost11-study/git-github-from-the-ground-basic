@@ -123,5 +123,5 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 2. `git checkout [커밋ID]` 
 	- `HEAD` 가 명령어에서 지정한 커밋을 가리키게 만든다.
 	- 이때, working directory와 staging area는 HEAD가 새롭게 가리키는 커밋의 상태로 바뀐다
-![[Pasted image 20251006210038.png]]
+![image](./images/Pasted%20image%2020251006210038.png)
 
