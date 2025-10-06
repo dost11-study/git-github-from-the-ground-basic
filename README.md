@@ -151,3 +151,4 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 
 ### 브랜치 생성하고 이동하기
 
+브랜치가 변경되면 working directory(tracked)와 staging area의 데이터가 해당 브랜치의 HEAD가 가리키는 커밋 상태로 변경된다.
