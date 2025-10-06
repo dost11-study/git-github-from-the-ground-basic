@@ -148,3 +148,6 @@ working directory의 파일 상태와 staging area의 파일 상태가 서로 �
 
 아래와 같은 사진의 박스 구조로 이해하면 편하다
 ![image](./images/Pasted%20image%2020251006224335.png)
+
+### 브랜치 생성하고 이동하기
+
