@@ -223,5 +223,19 @@ fast-forward 머지의 경우, conflict가 발생하지 않음
 
 - `push` 는 브랜치 단위로 이루어진다
 - `git push origin main:develop` 를 통해 로컬의 main 브랜치를 develop라는 이름으로 푸시할 수 있다
+- 푸시는 로컬의 브랜치를 리모트 브랜치에 덮어 씌우는 것이다
+
+![image](./images/Pasted%20image%2020251007214007.png)
+
+## git fetch
+
+- `fetch`도 푸시와 마찬가지로 브랜치 단위로 이루어진다
+
+![image](./Pasted%20image%2020251007214257.png)
+
+리모트 브랜치를 `fetch`할 경우 일반적인 로컬 브랜치와 다르다 이를 tracking branch라고 한다
+트래킹 브랜치는 checkout 하거나 commit을 생성할 수 없다. ex) origin/main, origin/test
+트래킹 브랜치는 리모트에 있는 브랜치 범위를 알려주는 역할만 한다
+
 
 
