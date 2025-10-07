@@ -198,3 +198,5 @@ main 브랜치에 test 브랜치를 머지할 시 (`git merge test`)
 ![image](./images/Pasted%20image%2020251007153733.png)
 
 ## fast-forward 머지
+
+Conflict는 양쪽 diff가 나는 경우
