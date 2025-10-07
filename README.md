@@ -222,5 +222,6 @@ fast-forward 머지의 경우, conflict가 발생하지 않음
 ## git push
 
 - `push` 는 브랜치 단위로 이루어진다
-- 
+- `git push origin main:develop` 를 통해 로컬의 main 브랜치를 develop라는 이름으로 푸시할 수 있다
+
 
