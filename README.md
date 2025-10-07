@@ -199,4 +199,9 @@ main 브랜치에 test 브랜치를 머지할 시 (`git merge test`)
 
 ## fast-forward 머지
 
-Conflict는 양쪽 diff가 나는 경우
+![image](./images/Pasted%20image%2020251007205627.png)
+
+![image](./images/Pasted%20image%2020251007205652.png)
+
+fast-forward 머지의 경우, conflict가 발생하지 않음
+왜냐하면, diff를 더하는 과정이 없기 때문이다
