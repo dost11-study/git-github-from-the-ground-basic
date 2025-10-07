@@ -201,7 +201,26 @@ main 브랜치에 test 브랜치를 머지할 시 (`git merge test`)
 
 ![image](./images/Pasted%20image%2020251007205627.png)
 
+main과 test 브랜치가 있다고 가정할 때, main은 최신 커밋 없이 base가 HEAD 상태이고,
+test 브랜치는 새로운 커밋이 생성되어 HEAD commit이 추가되었다고 가정한다
+
 ![image](./images/Pasted%20image%2020251007205652.png)
+
+굳이 main 브랜치에 test의 HEAD 커밋을 복사해서 머지 커밋을 만드는게 아니라
+main 브랜치의 범위를 test와 동일하게 변경시킨다.
+이것이 fast-forward 머지이다.
 
 fast-forward 머지의 경우, conflict가 발생하지 않음
 왜냐하면, diff를 더하는 과정이 없기 때문이다
+
+## git remote
+
+`git remote add [별칭] <리모트 URL>`
+- [별칭]과 <리모트 url>을 서로 매칭한다
+- 이를 통해, `push`와 `fetch` 할때 긴 URL 대신 짧은 별칭을 사용할 수 있다
+
+## git push
+
+- `push` 는 브랜치 단위로 이루어진다
+- 
+
