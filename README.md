@@ -161,8 +161,31 @@ HEAD의 실제 모양은 포인터가 포인터를 가리키는 구조이다
 
 ## 머지 (3-way merge)
 
-커밋 히스토리에서 
+![image](./images/Pasted%20image%2020251007153856.png)
+만약 브랜치가 위의 사진처럼 main과 test가 존재한다 가정한다
+해당 브랜치는 아래와 같은 사진처럼 볼 수 있다 (base + main쪽 HEAD와 HEAD^의 diff)
+
+![image](./images/Pasted%20image%2020251007154048.png)
+
+main 브랜치에 test 브랜치를 머지할 시 (`git merge test`)
+
+![image](./images/Pasted%20image%2020251007154201.png)
+
+그 후 working direc
+
+![[Pasted image 20251007154236.png]]
 
 ###  충돌 (Conflict)
-1. base로부터 main과 test 브랜치에 새로운 head commit이 있는 경우 동일한 파일의 같은 위치를 수정하려고해서 어느 쪽 diff를 적용해야할지 모
+
 ![image](./images/Pasted%20image%2020251007153138.png)
+1. main과 test를 병합하려고 한다
+2. base로부터 main과 test 브랜치에 새로운 head commit이 있는 경우 동일한 파일의 같은 위치를 수정하려고해서 어느 쪽 diff를 적용해야할지 모르는 상황 발생
+
+![image](./images/Pasted%20image%2020251007153343.png)
+1. 충돌이 발생한다. (working directory의 tracked와 staging area에 충돌 발생)
+   이때, staging area는 unmerged path 상태가 된다. (커밋을 만들 수 없는 상태)
+2. 수동으로 해당 파일의 conflict를 해결한다 (working directory의 tracked 충돌 해결)
+3. 수정한 내용을 git add를 통해 staging area를 정상 상태로 복구한다
+4. main 브랜치와 test 브랜치 모두가 포함된 새로운 confliect가 해결된 merge 커밋이 생성된다
+
+![image](./images/Pasted%20image%2020251007153733.png)
