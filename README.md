@@ -196,3 +196,5 @@ main 브랜치에 test 브랜치를 머지할 시 (`git merge test`)
 4. main 브랜치와 test 브랜치 모두가 포함된 새로운 confliect가 해결된 merge 커밋이 생성된다
 
 ![image](./images/Pasted%20image%2020251007153733.png)
+
+## fast-forward 머지
