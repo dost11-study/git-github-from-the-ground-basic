@@ -171,9 +171,16 @@ main 브랜치에 test 브랜치를 머지할 시 (`git merge test`)
 
 ![image](./images/Pasted%20image%2020251007154201.png)
 
-그 후 working direc
+1. 머지하게 되면 working directory의 tracked와 staging area에 test쪽 diff가 추가된다
+2. 기존 main 브랜치의 base + main쪽 diff에 test쪽 diff가 추가된 머지 커밋이 생성된다
 
-![[Pasted image 20251007154236.png]]
+![image](./images/Pasted%20image%2020251007154236.png)
+
+따라서 아래에 있는 사진의 3개의 커밋이 머지 커밋을 생성한다
+
+![image](./images/Pasted%20image%2020251007154451.png)
+
+이를 **3-way 머지**라고 한다.
 
 ###  충돌 (Conflict)
 
