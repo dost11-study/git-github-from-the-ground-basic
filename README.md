@@ -230,6 +230,7 @@ fast-forward 머지의 경우, conflict가 발생하지 않음
 ## git fetch
 
 - `fetch`도 푸시와 마찬가지로 브랜치 단위로 이루어진다
+- `fetch`는 `push`처럼 조건에 영향받지 않고 어떠한 조건에서도 가능하다
 
 ![image](./Pasted%20image%2020251007214257.png)
 
