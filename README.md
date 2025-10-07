@@ -162,3 +162,7 @@ HEAD의 실제 모양은 포인터가 포인터를 가리키는 구조이다
 ## 머지 (3-way merge)
 
 커밋 히스토리에서 
+
+###  충돌 (Conflict)
+1. base로부터 main과 test 브랜치에 새로운 head commit이 있는 경우 동일한 파일의 같은 위치를 수정하려고해서 어느 쪽 diff를 적용해야할지 모
+![image](./images/Pasted%20image%2020251007153138.png)
