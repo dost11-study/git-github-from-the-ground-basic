@@ -234,7 +234,7 @@ fast-forward 머지의 경우, conflict가 발생하지 않음
 
 ![image](./images/Pasted%20image%2020251007214257.png)
 
-리모트 브랜치를 `fetch`할 경우 일반적인 로컬 브랜치와 다르다 이를 tracking branch라고 한다
+리모트 브랜치를 `fetch`할 경우 일반적인 로컬 브랜치와 다르다 이를 tracking branch라고 한다  
 트래킹 브랜치는 checkout 하거나 commit을 생성할 수 없다. ex) origin/main, origin/test
 트래킹 브랜치는 리모트에 있는 브랜치 범위를 알려주는 역할만 한다
 
